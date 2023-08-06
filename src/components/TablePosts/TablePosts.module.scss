@@ -1,0 +1,37 @@
+.tableContainer {
+  overflow-x: auto;
+
+  .table {
+    width: 100%;
+    min-width: 700px;
+    margin-bottom: 24px;
+  }
+
+  .tableThead {
+    background-color: #474955;
+    box-shadow: 0px 4px 27px 0px rgba(230, 231, 234, 0.78);
+
+    tr {
+      text-align: center;
+    }
+
+    th {
+      padding: 19px 0 16px 0;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .icon {
+      margin-left: 25px;
+    }
+  }
+
+  .tableBody {
+    text-align: center;
+
+    td {
+      padding: 15px 12px 14px 11px;
+      border: 1px solid #e3e6ec;
+    }
+  }
+}
