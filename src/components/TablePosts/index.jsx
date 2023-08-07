@@ -30,11 +30,15 @@ export const TablePosts = () => {
   const onClickSortItem = (item, index) => {
     if (selectedIconIndex === index) {
       setSelectedIconIndex(-1);
+
       dispatch(setSort({ property: item.property }));
+
       setFlip(false);
     } else {
       setSelectedIconIndex(index);
+
       const isDescending = sort.property === `-${item.property}`;
+
       if (isDescending) {
         dispatch(setSort({ property: item.property }));
         setFlip(false);
