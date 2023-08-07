@@ -1,5 +1,8 @@
 # Table test
 
+## Link
+https://danila-mur.github.io/table-test/#/table
+
 ## Install
 
 ```sh
